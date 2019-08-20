@@ -10,7 +10,7 @@ export default class GameWrapper extends Component {
     settings: {
       width: 800,
       height: 600,
-      speed: 500,
+      speed: 6,
       edgeWrapping: false
     },
     showSettingsPopup: false
