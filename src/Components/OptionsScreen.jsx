@@ -61,16 +61,16 @@ const OptionsScreen = ({ values, onChange }) => (
         value={values.speed}
         options={[
           {
-            value: 500,
-            label: "Easy - 500"
+            value: 3,
+            label: "Easy - 3"
           },
           {
-            value: 300,
-            label: "Normal - 300"
+            value: 6,
+            label: "Normal - 6"
           },
           {
-            value: 100,
-            label: "Hard - 100"
+            value: 10,
+            label: "Hard - 10"
           }
         ]}
         onChange={value => onChange("speed", value)}
